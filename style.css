@@ -677,7 +677,7 @@ button:hover:active::after {
   animation: shine 3s linear infinite;
 }
 
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1850px) {
   .nav-open .main {
     transform: translateX(0%);
   }
