@@ -668,16 +668,14 @@ button:hover:active::after {
     #9d1dff 100%
   );
   background-size: 200% auto;
-
   color: #000;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   animation: shine 3s linear infinite;
 }
 
-@media only screen and (max-width: 1850px) {
+@media only screen and (max-width: 1800px) {
   .nav-open .main {
     transform: translateX(0%);
   }
