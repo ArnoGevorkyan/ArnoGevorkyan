@@ -675,7 +675,7 @@ nav ul li a {
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
 
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1700px) {
   .nav-open .main {
     transform: translateX(0%);
   }
