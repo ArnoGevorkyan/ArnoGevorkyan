@@ -1389,4 +1389,7 @@ img {
   .nav .nav-links-container ul {
     font-size: 40px;
   }
+  .details > h3 {
+    font-size: 30px;
+  }
 }
