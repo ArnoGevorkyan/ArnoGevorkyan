@@ -481,7 +481,7 @@ nav ul li a {
 .card {
   background-color: #fafafa;
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(161, 161, 161, 0.151);
+  box-shadow: 0 0 30px #a1a1a127;
   transition: all 0.2s;
 }
 .card:hover {
