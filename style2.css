@@ -466,11 +466,11 @@ nav ul li a {
   animation: shine 3s linear infinite;
 }
 .details > p {
+  white-space: break-spaces;
   font-size: 32px;
   font-family: HalvarRegular;
   line-height: 30px;
-  line-height: 0px;
-  padding: 0 20px 20px;
+  margin: 0 20px 15px;
 }
 .cards {
   display: grid;
