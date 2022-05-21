@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 ::selection {
   background: #93b2ff; /* Safari */
 }
@@ -419,7 +422,7 @@ nav ul li a {
   margin: 200px 0;
 }
 .col-1 span4 {
-  font-size: 96px;
+  font-size: 144px;
 }
 .col-1 {
   position: relative;
@@ -667,7 +670,279 @@ nav ul li a {
   font-size: 144px;
   color: #202429;
 }
+@media only screen and (max-width: 1600px) {
+  .nav-open .main {
+    transform: translateX(0%);
+  }
+  .nav {
+    height: 1180px;
+    bottom: 0;
+    transform: translateY(-200%);
+  }
+  .nav-open .nav .nav-links-container ul a {
+    text-align: center;
+    float: none;
+    display: inline-block;
+  }
+  .nav .nav-links-container {
+    align-items: center;
+    align-content: center;
+  }
+  .nav-open .nav {
+    position: absolute;
+    overflow: visible;
+    bottom: 0;
+  }
+  .nav .nav-links-container ul {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    float: none;
+    list-style: none;
+    display: inline-block;
+    font-family: "HalvarExtraBold";
+    font-size: 64px;
+  }
+  .nav-open .nav-icon-2 span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 13px;
+    left: 0px;
+  }
+  .nav-open .nav-icon-2 span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 13px;
+    left: 0px;
+  }
+  .nav-open .nav-icon-2 span:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    bottom: 13px;
+    left: 0px;
+  }
+  nav ul li a {
+    word-break: break-all;
+    text-decoration: none;
+    color: #202429;
+    font-size: 20px;
+    font-family: HalvarBold;
+  }
+  .nav-icon-2 {
+    margin: auto;
+    width: 40px;
+    height: 28px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .nav-icon-2 span {
+    background-color: #202429;
+    position: absolute;
+    transition: all 0.1s;
+  }
+  .nav-icon-2 span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 0px;
+    left: 0px;
+  }
+  .nav-icon-2 span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 13px;
+    left: 0px;
+  }
+  .nav-icon-2 span:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+  }
+  .nav-icon-2:not(.open):hover span:nth-child(1) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 5px;
+    left: 0px;
+    transition: all 0.1s;
+  }
+  .nav-icon-2:not(.open):hover span:nth-child(2) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    top: 13px;
+    left: 0px;
+    transition: all 0.1s;
+  }
+  .nav-icon-2:not(.open):hover span:nth-child(3) {
+    width: 100%;
+    height: 2px;
+    display: block;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.1s;
+  }
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
 
+  .row {
+    flex-direction: column-reverse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  .col-1 {
+    display: block;
+    position: relative;
+    color: #202429;
+    flex-basis: 80%;
+    text-align: center;
+  }
+  .infinity {
+    animation: marquee 3s linear infinite;
+  }
+  .col-1 h3 {
+    text-align: center;
+    font-size: 64px;
+  }
+  .col-1 h2 {
+    padding: 50px 0 0 0;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    color: #202429;
+  }
+  .col-1 p {
+    text-align: center;
+    font-family: HalvarRegular;
+    font-size: 18px;
+    position: relative;
+    color: #202429;
+    margin: 50px 0 0;
+  }
+  .col-1 p span {
+    font-family: HalvarBold;
+    color: #202429;
+  }
+  .col-1 p span2 {
+    font-family: HalvarLight;
+    color: #202429;
+  }
+  .col-2 {
+    position: relative;
+    top: 0;
+    right: 0%;
+    float: none;
+    flex-basis: 80%;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 50px 0;
+    box-shadow: 0px 4px 40px 0px rgba(108, 108, 108, 0.094);
+  }
+  .col-2 .ava {
+    width: 100%;
+    height: 100%;
+  }
+  .social-links {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+  }
+  .social-links ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .social-links a {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    color: #0077ff;
+  }
+  .social-links a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+  .proekt {
+    position: relative;
+    margin: 50px 0 0;
+    text-align: center;
+  }
+  .proekt :hover h3 {
+    background-size: 0 0.1em, 100% 0.1em;
+  }
+  form {
+    margin: auto;
+    width: 100%;
+  }
+  form > input {
+    flex: 1 1 10ch;
+    margin: 0.5rem;
+  }
+
+  form > input[type="email"] {
+    flex: 3 1 30ch;
+  }
+  input {
+    border: none;
+    font-family: HalvarRegular;
+    font-size: 16px;
+    background: #fafafa;
+    border-radius: 200px;
+    padding: 30px 45px;
+    transition: all 0.3s;
+    border: 0px solid #e8e8e8;
+  }
+  .proekt p {
+    font-family: HalvarRegular;
+    font-size: 24px;
+    color: #202429;
+  }
+  .phone {
+    display: flex;
+  }
+  input[type="submit"] {
+    justify-content: center;
+    padding: 30px;
+    font-size: 16px;
+    float: left;
+  }
+  .cpls {
+    display: none;
+  }
+  .arno {
+    display: none;
+  }
+  .cauldy {
+    display: none;
+  }
+  .col-1 span4 {
+    font-size: 64px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
 
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
@@ -675,7 +950,7 @@ nav ul li a {
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
 
 /*ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART *ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART ADAPTIVE PART*/
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 1280px) {
   .nav-open .main {
     transform: translateX(0%);
   }
@@ -982,5 +1257,10 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .nav .nav-links-container ul {
+    font-size: 40px;
   }
 }
