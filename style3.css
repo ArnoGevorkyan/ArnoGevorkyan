@@ -10,6 +10,7 @@ html {
 }
 a {
   text-decoration: none;
+  color: #202429;
 }
 .slide-in {
   animation: slide-in 0.5s ease forwards;
