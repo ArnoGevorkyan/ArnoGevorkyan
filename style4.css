@@ -653,7 +653,7 @@ nav ul li a {
 .proekt {
   cursor: pointer;
   position: relative;
-  margin: -100px 0 100px;
+  margin: -100px 0 200px;
 }
 .proekt p {
   font-family: HalvarRegular;
@@ -884,7 +884,7 @@ nav ul li a {
   }
   .proekt {
     position: relative;
-    margin: 50px 0 0;
+    margin: 50px 0 100px;
     text-align: center;
   }
   .proekt :hover h3 {
@@ -924,7 +924,6 @@ nav ul li a {
     justify-content: center;
     padding: 30px;
     font-size: 16px;
-    float: left;
   }
   .cpls {
     display: none;
@@ -1164,7 +1163,7 @@ nav ul li a {
   }
   .proekt {
     position: relative;
-    margin: 50px 0 0;
+    margin: 50px 0 100px;
     text-align: center;
   }
   .proekt :hover h3 {
