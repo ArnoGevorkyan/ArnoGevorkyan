@@ -1,6 +1,29 @@
 html {
   scroll-behavior: smooth;
 }
+<!--Скроллбар-->
+
+.t-body {
+    overflow: overlay !important;
+}
+
+::-webkit-scrollbar {
+    cursor:grab !important;
+    width: 20px;
+    background-color: transparent;
+}
+ 
+ ::-webkit-scrollbar {
+   cursor:grab !important;
+}
+::-webkit-scrollbar-thumb {
+    cursor:grab !important;
+    background-color: #0009ff;
+    border-radius: 10px;
+  border: 6px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+
 ::selection {
   background: #93b2ff; /* Safari */
 }
