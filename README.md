@@ -1,4 +1,4 @@
-**hi, i'm Arno — 19, based in Miami**
+**hi, i'm Arno. 19. Miami**
 
 building [Carty](https://carty.cc)
 
