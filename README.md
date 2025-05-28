@@ -1,4 +1,4 @@
-make it use force linmes **hi, i'm Arno — 19, based in Miami**
+**hi, i'm Arno — 19, based in Miami**
 
 building [Carty](https://carty.cc)
 
