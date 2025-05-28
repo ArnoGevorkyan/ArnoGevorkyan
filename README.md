@@ -1,4 +1,4 @@
-hi, i'm Arno — 19, based in Miami  
+**hi, i'm Arno — 19, based in Miami  **
 building [Carty](https://carty.cc)
 
 built [Screeny](https://apps.microsoft.com/detail/9P2XX9PJM3SR?hl=en-us&gl=US&ocid=pdpshare) and [ArnoGPT](https://t.me/ArnoGPT_bot) (594 users)  
