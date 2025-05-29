@@ -7,4 +7,4 @@ designed for [Modernbanc (YC W20)](https://modernbanc.com/)
 
 CS @ FIU
 
-[tg](https://t.me/ArnoGevorkyan) | [website](https://arnogevorkyan.com) | [arno@carty.cc](mailto:arno@carty.cc)
+[telegram](https://t.me/ArnoGevorkyan) | [website](https://arnogevorkyan.com) | [arno@carty.cc](mailto:arno@carty.cc)
