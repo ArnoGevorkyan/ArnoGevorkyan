@@ -2,7 +2,7 @@
 
 building [Carty](https://carty-landing.vercel.app/?ref=github)
 
-built [Screeny](https://apps.microsoft.com/detail/9P2XX9PJM3SR?hl=en-us&gl=US&ocid=pdpshare) and [ArnoGPT](https://t.me/ArnoGPT_bot) (594 users)  
+built [Screeny](https://screeny.lol?ref=github) and [ArnoGPT](https://t.me/ArnoGPT_bot) (594 users)  
 designed for [Modernbanc (YC W20)](https://modernbanc.com/)
 
 CS @ FIU
